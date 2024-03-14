@@ -1,0 +1,18 @@
+{
+  "E062STGCBFT": {
+    "app_id": "A06NMM62NRZ",
+    "enterprise_id": "E062STGCBFT",
+    "IsDev": true,
+    "team_domain": "21b",
+    "team_id": "E062STGCBFT",
+    "user_id": "U062RE4KANS"
+  },
+  "E06NAJL0XDG": {
+    "app_id": "A06N7Q7HLBZ",
+    "enterprise_id": "E06NAJL0XDG",
+    "IsDev": true,
+    "team_domain": "testtest",
+    "team_id": "E06NAJL0XDG",
+    "user_id": "U06NAF48KFD"
+  }
+}
