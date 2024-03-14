@@ -17,7 +17,7 @@ Step-by-step instructions can be found in the
 
 ### Clone the Template
 
-Start by cloning this repository to your local machine.
+Start by cloning this repository to your local machine. Then use `slack login` to log in to your Slack workspace. Be sure to use a test environment to start! 
 
 ## Running Your Project Locally
 
@@ -33,6 +33,22 @@ $ slack run
 ```
 
 To stop running locally, press `<CTRL> + C` to end the process.
+
+### Setting SLACK_APP_TOKEN and SLACK_BOT_TOKEN
+
+Once installed, you can see the app via [api.slack.com](https://api.slack.com), where you can grab the required tokens. 
+
+```zsh
+# Set SLACK_BOT_TOKEN token and confirm
+$ export SLACK_BOT_TOKEN='your_slack_bot_token_here'
+$ echo $SLACK_BOT_TOKEN
+```
+
+```zsh
+# Set SLACK_APP_TOKEN token and confirm
+$ export SLACK_APP_TOKEN='your_slack_app_token_here'
+$ echo $SLACK_APP_TOKEN
+```
 
 ## Using Functions in Workflow Builder
 With your server running, your function is now ready for use in [Workflow Builder](https://api.slack.com/start#workflow-builder)! Add it as a custom step in a new or existing workflow, then run the workflow while your app is running.
