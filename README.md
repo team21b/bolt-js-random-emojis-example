@@ -15,16 +15,16 @@ To use this template, you need to install and configure the Slack CLI.
 Step-by-step instructions can be found in the
 [Quickstart Guide](https://api.slack.com/automation/quickstart).
 
-### Clone the Template
-
-Start by cloning this repository to your local machine. Then use `slack login` to log in to your Slack workspace. Be sure to use a test environment to start! 
-
 ### Install Slack 
 
 ```zsh
 # Install Slack
 $ npm install slack
 ```
+
+### Clone the Template
+
+Start by cloning this repository to your local machine. Then use `slack login` to log in to your Slack workspace. Be sure to use a test environment to start! 
 
 ### Setting SLACK_APP_TOKEN and SLACK_BOT_TOKEN
 
