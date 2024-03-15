@@ -19,20 +19,12 @@ Step-by-step instructions can be found in the
 
 Start by cloning this repository to your local machine. Then use `slack login` to log in to your Slack workspace. Be sure to use a test environment to start! 
 
-## Running Your Project Locally
-
-While building your app, you can see your changes appear in your workspace in
-real-time with `slack run`. You'll know an app is the development version if the
-name has the string `(local)` appended.
+### Install Slack 
 
 ```zsh
-# Run app locally
-$ slack run
-
-⚡️ Bolt app is running! ⚡️
+# Install Slack
+$ npm install slack
 ```
-
-To stop running locally, press `<CTRL> + C` to end the process.
 
 ### Setting SLACK_APP_TOKEN and SLACK_BOT_TOKEN
 
@@ -49,6 +41,21 @@ $ echo $SLACK_BOT_TOKEN
 $ export SLACK_APP_TOKEN='your_slack_app_token_here'
 $ echo $SLACK_APP_TOKEN
 ```
+
+### Running Your Project Locally
+
+While building your app, you can see your changes appear in your workspace in
+real-time with `slack run`. You'll know an app is the development version if the
+name has the string `(local)` appended.
+
+```zsh
+# Run app locally
+$ slack run
+
+⚡️ Bolt app is running! ⚡️
+```
+
+To stop running locally, press `<CTRL> + C` to end the process.
 
 ## Using Functions in Workflow Builder
 With your server running, your function is now ready for use in [Workflow Builder](https://api.slack.com/start#workflow-builder)! Add it as a custom step in a new or existing workflow, then run the workflow while your app is running.
